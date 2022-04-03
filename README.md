@@ -1,9 +1,6 @@
-# ac-mod-directory
-Mod directory web apps
-
+# go-project-template
 
 ## Project structure
-[Example project structure](https://github.com/golang-standards/project-layout)
 
 ```
 github.com/user/some_project/
@@ -36,38 +33,4 @@ github.com/user/some_project/
 ├── go.sum
 ├── Makefile
 └── README.md
-```
-
-[Another approach](https://www.dudley.codes/posts/2020.05.19-golang-structure-web-servers/)
-```
-├── app/
-|   └── service-api/**
-├── cmd/
-|   └── service-tool-x/
-├── internal/
-|   └── service/
-|       └── mock/
-├── pkg/
-|   ├── client/
-|   └── dtos/
-├── (.editorconfig, .gitattributes, .gitignore)
-└── go.mod
-```
-
-Service structure
-
-```
-└── service-api/
-    ├── cfg/
-    ├── middleware/
-    ├── routes/
-    |   ├── makes/
-    |   |   └── models/**
-    |   ├── create.go
-    |   ├── create_test.go
-    |   ├── get.go
-    |   └── get_test.go
-    ├── webserver/
-    ├── main.go
-    └── pipeline.go
 ```
