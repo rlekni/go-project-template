@@ -27,7 +27,6 @@ github.com/user/some_project/
 |   ├── auth/
 |   ├── frontend/
 |   └── user/
-├── vendor/ (common vendor-packages for all services)
 ├── docker-compose.yml
 ├── go.mod
 ├── go.sum
